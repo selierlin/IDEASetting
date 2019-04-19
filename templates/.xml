@@ -25,4 +25,16 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="pb" value="private boolean $var1$;&#10;$END$" description="private boolean" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="logger" value="private static final Logger LOGGER = LoggerFactory.getLogger($CLASS$.class);" description="Logger" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>

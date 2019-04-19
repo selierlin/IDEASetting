@@ -19,4 +19,58 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="dmap" value="@DeleteMapping(&quot;/$URI$&quot;)&#10;public Object $FUNCTION$($PARAM$){&#10;    $END$&#10;    return &quot;&quot;;&#10;}" description="Delete Request Method" toReformat="true" toShortenFQNames="true">
+    <variable name="URI" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="gmap" value="@GetMapping(&quot;/$URI$&quot;)&#10;public Object $FUNCTION$($PARAM$){&#10;    $END$&#10;    return &quot;&quot;;&#10;}" description="Get Request Method" toReformat="true" toShortenFQNames="true">
+    <variable name="URI" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pmap" value="@PostMapping(&quot;/$URI$&quot;)&#10;public Object $FUNCTION$($PARAM$){&#10;    $END$&#10;    return &quot;&quot;;&#10;}" description="Post Request Method" toReformat="true" toShortenFQNames="true">
+    <variable name="URI" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="putmap" value="@PutMapping(&quot;/$URI$&quot;)&#10;public Object $FUNCTION$($PARAM$){&#10;    $END$&#10;    return &quot;&quot;;&#10;}" description="Put Request Method" toReformat="true" toShortenFQNames="true">
+    <variable name="URI" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="rmap" value="@RequestMapping(&quot;/$URI$&quot;)&#10;public String $FUNCTION$($PARAM$){&#10;    $END$&#10;    return &quot;&quot;;&#10;}" description="Request Method" toReformat="true" toShortenFQNames="true">
+    <variable name="URI" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="rmaps" value="@ResponseBody&#10;@RequestMapping(&quot;/$URI$&quot;)&#10;public Object $FUNCTION$($PARAM$){&#10;        $END$&#10;return &quot;&quot;;&#10;}" description="RequestBody Method" toReformat="true" toShortenFQNames="true">
+    <variable name="URI" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="test" value="@Test&#10;public void $FUNCTION$(){&#10;    $END$&#10;}" description="test Method" toReformat="true" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
