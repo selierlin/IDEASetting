@@ -1,0 +1,8 @@
+<templateSet group="html/xml">
+  <template name="script" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;    $END$&#10;&lt;/script&gt;" description="create javascript" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

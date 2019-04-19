@@ -1,0 +1,7 @@
+<templateSet group="output">
+  <template name="syso" value="System.out.println($END$);" description="打印一个字符串到System.out" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

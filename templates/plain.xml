@@ -1,0 +1,12 @@
+<templateSet group="plain">
+  <template name="psfi" value="public static final int $var1$ = $var2$;" description="public static final int" toReformat="false" toShortenFQNames="false">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="psfs" value="public static final String $var1$ = &quot;$var2$&quot;;" description="public static final String" toReformat="false" toShortenFQNames="false">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
