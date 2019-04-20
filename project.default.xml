@@ -7,6 +7,9 @@
       <component name="CompilerWorkspaceConfiguration">
         <option name="MAKE_PROJECT_ON_SAVE" value="true" />
       </component>
+      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
       <component name="MavenImportPreferences">
         <option name="generalSettings">
           <MavenGeneralSettings>
@@ -14,6 +17,14 @@
             <option name="userSettingsFile" value="D:\tools\apache-maven-3.3.9\conf\settings.xml" />
           </MavenGeneralSettings>
         </option>
+        <option name="importingSettings">
+          <MavenImportingSettings>
+            <option name="vmOptionsForImporter" value="-Xmx768m" />
+          </MavenImportingSettings>
+        </option>
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="10780" />
       </component>
       <component name="ProjectInspectionProfilesVisibleTreeState">
         <entry key="Project Default">
@@ -64,7 +75,8 @@
         <property name="project.structure.last.edited" value="SDKs" />
         <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.0" />
-        <property name="settings.editor.selected.configurable" value="fileTemplates" />
+        <property name="recentsLimit" value="15" />
+        <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
       </component>
       <component name="RemoteRepositoriesConfiguration">
         <remote-repository>
@@ -80,14 +92,28 @@
         <remote-repository>
           <option name="id" value="9a6fa013-bcf1-4661-842b-67e623016075" />
           <option name="name" value="9a6fa013-bcf1-4661-842b-67e623016075" />
-          <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+          <option name="url" value="https://maven.aliyun.com/" />
         </remote-repository>
+        <remote-repository>
+          <option name="id" value="b6f7322e-1949-4b3c-8ce0-76664bfa5311" />
+          <option name="name" value="b6f7322e-1949-4b3c-8ce0-76664bfa5311" />
+          <option name="url" value="http://central.maven.org/maven2/" />
+        </remote-repository>
+      </component>
+      <component name="RunDashboard">
+        <option name="ruleStates">
+          <list>
+            <RuleState>
+              <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+            </RuleState>
+            <RuleState>
+              <option name="name" value="StatusDashboardGroupingRule" />
+            </RuleState>
+          </list>
+        </option>
       </component>
       <component name="SvnConfiguration">
         <configuration>C:\Users\10780\AppData\Roaming\Subversion</configuration>
-      </component>
-      <component name="VcsContentAnnotationSettings">
-        <option name="myLimit" value="2678400000" />
       </component>
       <component name="masterDetails">
         <states>
@@ -97,6 +123,17 @@
                 <option name="proportions">
                   <list>
                     <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="Copyright.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.41599074" />
                   </list>
                 </option>
               </splitter-proportions>
@@ -143,6 +180,17 @@
                 <option name="proportions">
                   <list>
                     <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.41599074" />
                   </list>
                 </option>
               </splitter-proportions>

@@ -1,15 +1,10 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="compactDropdowns" value="true" />
-    <option name="isCompactMenus" value="true" />
     <option name="isCompactStatusBar" value="true" />
-    <option name="isCompactTables" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
-    <option name="pristineConfig" value="false" />
-    <option name="upperCaseButtons" value="false" />
-    <option name="settingsSelectedTab" value="1" />
     <option name="accentColor" value="b71c1c" />
     <option name="userId" value="-70e0c26f:168327ec277:-8000" />
     <option name="version" value="3.9.1" />

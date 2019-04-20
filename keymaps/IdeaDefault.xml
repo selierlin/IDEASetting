@@ -9,9 +9,6 @@
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ChangesView.Diff" />
-  <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="ctrl alt f4" />
-  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
